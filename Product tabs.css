@@ -1,0 +1,50 @@
+.product-tabs{
+    margin-top:60px;
+    color:white;
+}
+
+.tab-buttons{
+    display:flex;
+    gap:20px;
+    border-bottom:1px solid #333;
+    padding-bottom:15px;
+}
+
+.tab-buttons button{
+    background:none;
+    border:none;
+    color:#aaa;
+    cursor:pointer;
+    font-size:16px;
+    padding-bottom:10px;
+}
+
+.tab-buttons button.active{
+    color:#00bfff;
+    border-bottom:2px solid #00bfff;
+}
+
+.tab-content{
+    margin-top:30px;
+    line-height:1.8;
+}
+
+.tab-content h3{
+    margin-bottom:15px;
+}
+
+.tab-content ul{
+    padding-left:20px;
+}
+
+.tab-content li{
+    margin-bottom:10px;
+}
+
+@media(max-width:768px){
+
+.tab-buttons{
+flex-wrap:wrap;
+}
+
+}
